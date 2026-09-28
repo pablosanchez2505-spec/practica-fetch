@@ -1,4 +1,4 @@
-// Obtener JSON de JSONPlaceholder usando fetch con async/await
+
 async function obtenerDatosAsync() {
     try {
         const respuesta = await fetch('https://jsonplaceholder.typicode.com/posts/1');
@@ -15,5 +15,4 @@ async function obtenerDatosAsync() {
     }
 }
 
-// Ejecutar la función
 obtenerDatosAsync();
